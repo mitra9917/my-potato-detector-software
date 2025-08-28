@@ -41,9 +41,3 @@ The system uses a trained deep learning model for classification, is built with 
 👉 [Try the Project Here! 🚀](https://my-potato-project-84589.web.app/)  
 
 ---
-
-## ⚡ Getting Started (For Developers)
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/your-username/potato-detection.git
-   cd potato-detection
