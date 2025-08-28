@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "out",
+    "ignore": [],
+    "rewrites": [
+      {
+        "source": "/api/**", 
+        "function": "nextjsServer" 
+      },
+      {
+        "source": "**", 
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
