@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🥔 Potato Health & Damage Detection
 
-## Getting Started
+An AI-powered **full-stack web application** that detects the **health and internal defects of potatoes** from their images.  
+The system uses a trained deep learning model for classification, is built with **Node.js** for backend support, and deployed seamlessly on **Firebase** for easy accessibility.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
+- 🔎 **AI Model Integration** – Detects potato defects from uploaded images.  
+- 🌐 **Full-Stack Web App** – Node.js backend + modern frontend.  
+- ☁️ **Firebase Deployment** – Live hosting and real-time database integration.  
+- 📷 **Image Upload Support** – Simple interface to test potato images.  
+- 📊 **Accurate Results** – Based on trained machine learning model.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
+- **Frontend**: HTML, CSS, JavaScript (with modern build tools)  
+- **Backend**: Node.js, Express.js  
+- **AI/ML Model**: Trained using TensorFlow/Keras (integrated into the backend)  
+- **Database & Hosting**: Firebase  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📂 Project Workflow
+1. User uploads a potato image via the web app.  
+2. The backend sends the image to the trained AI model.  
+3. The AI model analyzes the potato’s health and returns prediction results.  
+4. Results are displayed in a clean, user-friendly UI.  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Use Cases
+- Farmers checking crop quality.  
+- Food industries monitoring potato quality before packaging.  
+- Research projects in agriculture automation.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🌐 Live Demo
+👉 [Try the Project Here! 🚀](https://my-potato-project-84589.web.app/)  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⚡ Getting Started (For Developers)
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/your-username/potato-detection.git
+   cd potato-detection
